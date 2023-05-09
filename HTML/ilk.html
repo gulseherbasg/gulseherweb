@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<meta charset ="UTF-8"> <!-- "türkçe karakter kullanıldı"  --> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- "webin  telefonda görünümü düzgün olur"  --> 
+<meta name = "keywords" content="elma"> <!-- "anahtar kelimeler sayesinde webde aranalarda üstte çıkıyor"(elma ile ilgili websitesin kurdum)  -->
+<meta name="description" content="elmada a vitamini bolca bulunur"> <!-- "web sitesi aratınca altında yazan küçük açıklama "  -->
+<title >ilk deneme </title> <!-- "başlık"  -->
+</style>
+
+
+<!-- css kullandım. style ın içinde yazdığım için koddaki tüm h1'ler su yeşili rengine büründü. dikkat: style head içinde--> 
+<style> 
+/*    css de style içine yorum satırı için <!-- --> kullanılmaz bu kullanılır   */
+
+
+.ozellik
+{
+    color: blueviolet;
+    background-color: rgb(105, 16, 16);
+    text-align: center;
+    font-weight:bold ;
+}
+
+.yazi{
+    color: blue;
+    font-size: 20 px;
+}
+
+#yazii{
+    color: bisque;
+}
+
+    h5{
+        color:aquamarine;
+    }
+</style>
+
+<link rel="stylesheet" href="h1.css">
+</head>
+
+
+<!-- . ile class # ile id kulllanılır-->
+
+
+<body>
+<h1 class="özellikler"> özellikler kullanıldı</h1>
+
+
+<h3 class="yazi"> yaziekledimhayırlısı</h3> <!-- mavi ve 20 px yazdı çünkü .yazi diye ekledim-->
+<h4 id="yazii"> yaziieklediminskremyazar</h4>
+
+
+ <h1 style="color:blueviolet"> slm </h1> <!-- mor yazdı-->
+
+<h1>slmm</h1> <!-- su yeşili yazdı-->
+
+<h2>insallah brown yazar amin</h2> <!-- h2.css diyr ayrı bir sayfa oluşturdum ve h2.css'i ilk.html'e gömdüğüm için h2 yazdıklarım artık  kahverengi yazıyor -->
+---------------
+
+    <!--div:-->
+<center>
+   <div class="divOzellik"> <br><br><br><br> div oluşturuldu </div>
+</center>
+
+------------------
+<br><br><br>
+<a href="#asagigit">aşağıya in</a> <!-- sayfanın sonuna    <h2 id="asagigit"></h2>    yazdım aşağıya in'e tıklayınca sayfanın altınaid yazdığım kısma inecek-->
+<br><br><br>
+-------------
+
+
+
+<p> hello </p> <!--  paragraf etiketi, etiket içine lorem 5 yazarsan enter dersen 5 kelimelik random cümle yazdırır -->
+
+<h1>Selaam</h1>   <!-- h etiketleri yazı boyutunu belirler h1>h2>h3...-->
+<h2>Selam</h2>
+<h3>Selam</h3>
+
+<hr> <!--sayfada yatay olarak bir çizgi çeker-->
+
+<br> <!-- 1 satır boşluk bırakır -->
+
+bu kalın yazmamı sağlamadı <br>
+<strong>bu kalın yazmamı sağladı</strong>
+
+<i> java dersleri</i> <!--eğik  italik yazdı -->
+<mark>üstü çizili olamlı </mark> <br> <br> <hr>
+
+
+<!-- görselleri kaydederken html dosyası içinde bir resimler klasörü açtım (uzantı seçmeyip tüm dosyaları seçmen gerek.) -->
+<!-- isimlendirirken jpeg jpg falan olarak kaydetmen önemli değil hepsi kullanılabiliyor. -->
+<!-- center: resim ya da yazıyı ortala demek-->
+<!-- width: en boyutu     height: boy boyutu-->
+<center>
+<img src="/resimler//türkb.jpeg " alt="böyle bir resim bulunamadı" width="100" height="100" > 
+<hr> 
+<img src="/resimler//x " alt="böyle bir resim bulunamadı" width="100" height="100" >  
+<hr>
+<img src="/resimler//xxx.jpg " alt="böyle bir resim bulunamadı"  width="100" height="100">   
+<hr>
+</center>
+
+
+<!--a: link vermek için kullanılır , href: gidilecek adres -->
+googla gitmek için <a href="https://google.com">tıklayınız</a>
+<!-- eğer linke basınca gelen sayfa ayrı bir sayfada açılsın istersem : target kullanıyorum. -->
+googla gitmek için <a href="https://google.com" target="_blank">tıklayınız</a>
+<br><br>
+<!-- görselin üzerine tıklayıp linke gitmek için: -->
+<a href="https://www.youtube.com/watch?v=v04zn4PeFqM&list=PLi1BmHvgBkxIYweLR52cRJnit4AEEugn4&index=13">
+<img src="/resimler/türkb.jpeg" alt="icon bulunamadı" width="80" height="80"> </a>
+
+<br><br><br><br><br><br><br>
+<!-- ul sayısız olarak listeler ol başında sayı yazdırır.-->
+<ul>
+    <li>kahve</li>
+    <li>çay</li>
+</ul>
+
+ <br><br>
+
+<ol>
+<li>soda</li>
+<li>kola</li>
+</ol>
+----------------------------------
+ <!-- anlamak için etkinlik :  ol type = " 1" falan gibi şeyler yazarsan ol içndeli li'lerin başında sayı mı olacak romen rakamı mı kara veriyorsun-->
+ <!-- 1 = 1,2,3   a= a,b,c,d   A = A,B,C,D  i=i,ii,iii,iv   I=I,II,III,IV  -->
+<ol type="1">
+    <li>İç Donanım Birimleri
+<ol type="I">
+    <li>anakart</li>
+    <li>işlemci</li>
+<li>bellek</li>
+</ol>
+  </li>
+
+    <li>Dış donanım birimleri
+<ol type="1">
+<li>monitor
+<ol type="a">
+    <li>LCD</li>
+    <li>LED</li>
+</ol>
+</li>
+
+<li>klavye</li>
+<li>fare</li>
+
+</ol>
+    </li>
+</ol>
+
+
+--------------------------------
+
+
+<table border="2"> <!-- çerçeveyi kalınlaştırmak ve oluşturmak-->
+<!--      tr: tablo satırı oluşturma     td: tablo verisi  th: tablo başlığı  -->
+<!--  rowspan:satır birleştirme, colspan: sütun birleştirme-->
+
+<tr>
+    <th colspan="3">başlık </th> <!-- üç kolonu birleştirmek için 3 girdik-->
+</tr>
+<tr>
+    <th> isim</th>
+    <th>soyisim</th>
+    <th>yaş</th>
+</tr>
+
+<tr>
+    <td>seher</td>
+    <td>başağa</td>
+    <td>19</td>
+</tr>
+
+</table>
+
+----------------------------------
+<!-- table konusunu anlamak adına etkinlik: --> 
+
+<table border="1">
+    <tr>
+        <th colspan="3">Product</th>
+    </tr>
+
+<tr>
+    <th>no </th>
+    <th>name </th>
+<th>count </th>
+</tr>
+
+<tr>
+    <td>1</td>
+    <td>pen</td>
+    <td rowspan="3">50</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>book</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>dust</td>
+</tr>
+
+</table>
+------------------------------------ <br>
+
+
+
+<!-- Inline ve block element: mesela p ya da h kulllandığında mavi yerler kullanılan alan ve o satırın tamamamı olur.
+     Turuncu ile de üstten ve alttan boşluklar olur. ama Inline element kullanırsan (ör: <span> ldkkcd </span>) sadece  yazının olduğu alanı kaplarsın -->
+      <span> span </span>
+      yazı
+      <h1>h1</h1>
+      yazı
+      
+
+
+-------------------------------------- <br>
+
+
+<!-- fORM ETİKETİ:-->
+
+<form>
+
+<input type="text" placeholder="isim"/>
+<input type="password" placeholder="şifre"/>
+<input type="email" placeholder="email adres"/> <br> <br>
+
+<!-- seçenek sunma tik koyma için checkbox kulanılıyor istediğin kadar kutucuk seçebilirsin.-->
+hobileriniz:
+<br>
+
+kitap okumak<input type="checkbox"> <br>
+spor yapmak <input type="checkbox"> <br>
+
+
+
+<!--  seçenek sunma tik koyma için radio kulanılıyor sadece tek bir kutucuk seçebilirsin. ama name aynı vermen gerekli-->
+<br> <br><br>
+sözleşmeyi kabul ediyor musunuz? 
+<br>
+evet<input type="radio" name="a">
+<br>
+hayır<input type="radio" name="a">
+
+
+<input type="file">   <!-- dosya yükleme-->
+<input type="submit"> <!-- gönder-->
+
+<input type="reset" value="temizle"> <!-- tüm işaretlemeler ve yazılanlar silinir-->
+<br> <br> <br>
+<textarea name="mesajinput" id="mesajAlani" cols="30" rows="10"></textarea>  <br>
+
+<br><br>brb
+içeçek seçiniz: 
+<select>
+<option value="çay">çay</option>
+<option value="kahve">kahve</option>
+<option value="su">su</option>
+</select>
+
+</form>
+
+<br><br><br><br><br><br><br><br>
+
+<iframe src="https://enesbayram.net" width="500" height="700" ></iframe>
+
+<h2 id="asagigit"></h2>
+sayfa sonu :)
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+
+</html>
